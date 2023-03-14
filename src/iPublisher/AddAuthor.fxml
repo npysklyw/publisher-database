@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.AddAuthorController">
+   <children>
+      <Label layoutX="254.0" layoutY="39.0" text="Add Author">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="466.0" layoutY="329.0" mnemonicParsing="false" onAction="#addAuthor" prefHeight="25.0" prefWidth="52.0" text="Save" />
+      <Button fx:id="cancelBtn" layoutX="347.0" layoutY="329.0" mnemonicParsing="false" onAction="#exit" text="Cancel" />
+      <TextField fx:id="id" layoutX="226.0" layoutY="106.0" />
+      <TextField fx:id="name" layoutX="226.0" layoutY="155.0" />
+      <TextField fx:id="address" layoutX="226.0" layoutY="200.0" />
+      <Label layoutX="147.0" layoutY="110.0" text="Author ID" />
+      <Label layoutX="132.0" layoutY="159.0" text="Author Name" />
+      <Label layoutX="132.0" layoutY="204.0" text="Author Address" />
+      <ComboBox fx:id="unit" layoutX="226.0" layoutY="256.0" prefWidth="150.0" />
+      <Label layoutX="128.0" layoutY="260.0" text="Publishing Unit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.EditPublisherController">
+   <children>
+      <Label layoutX="206.0" layoutY="40.0" text="Edit/Delete A Publisher ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="486.0" layoutY="343.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Button layoutX="394.0" layoutY="343.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="55.0" text="Delete" />
+      <Button fx:id="cancelBtn" layoutX="313.0" layoutY="343.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="55.0" text="Exit" />
+      <Button layoutX="50.0" layoutY="343.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="55.0" text="Clear" />
+      <ComboBox fx:id="pubBox" layoutX="272.0" layoutY="98.0" onAction="#change" prefWidth="150.0" />
+      <Label layoutX="178.0" layoutY="102.0" text="Get Publisher" />
+      <TextField fx:id="name" layoutX="273.0" layoutY="160.0" />
+      <TextField fx:id="address" layoutX="273.0" layoutY="209.0" />
+      <TextField fx:id="region" layoutX="273.0" layoutY="254.0" />
+      <Label layoutX="198.0" layoutY="164.0" text="Name" />
+      <Label layoutX="192.0" layoutY="213.0" text="Address" />
+      <Label layoutX="193.0" layoutY="258.0" text="Region" />
+   </children>
+</AnchorPane>

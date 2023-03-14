@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Mar 24 11:01:04 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0178-64c0-de8d-000006ff7560 
+on database directory C:\Users\Nick\OneDrive - The University of Western Ontario\School_Things\Software_Design\iPublisher\iPublisherDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f4d3709 
+Loaded from file:/C:/Users/Nick/OneDrive%20-%20The%20University%20of%20Western%20Ontario/School_Things/Software_Design/iPublisher/src/iPublisher/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.2+7-27
+user.dir=C:\Users\Nick\OneDrive - The University of Western Ontario\School_Things\Software_Design\iPublisher
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
